@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website test</title>
+    <!-- here we link font libariy to our page  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- the classes you give the divs are coming from font awesome website similar to bootstrap -->
+    <div class="quote-container" id="quote-container">
+        <!-- quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this">
+                <!-- the "i" used as place holder for the botton symbol  -->
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="newquote">New Quote</button>
+        </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="java.js"></script>
+</body>
+</html>
